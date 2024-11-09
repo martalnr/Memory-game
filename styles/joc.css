@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    width: 50%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+.fitxa {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 80px;
+    width: 100%;
+    height: 100%;
+}
+
+.fitxa:hover {
+    background-color: burlywood;
+}
+
+.reiniciar {
+    margin-top: 20px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.reiniciar:hover {
+    background-color: blue;
+}
+
+.container {
+    width: auto;
+    padding-bottom: 60px;
+}
+
+.logout {
+    font-size: 14px;
+    bottom: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout:hover {
+    background-color: darkred;
+}
